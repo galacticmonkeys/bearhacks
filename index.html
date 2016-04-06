@@ -1,0 +1,69 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<script src="index.js"></script>
+</head>
+
+
+<body>
+<div class='overlay'>
+<div id='landing-page'>
+	<div id='hero-text'>
+		<h1>Welcome to BearHacks</h1>
+		<h4>Despite what this background picture may suggest, bear hacking is not endorsed.</h4>
+	</div>
+</div>
+</div>
+
+<div id='intro'> 
+  <div class='section big-font'>
+A (static) website consists of 3 parts:
+<ul>
+	<a href='#html'><li>HTML</li></a>
+	<a href='#css'><li>CSS</li></a>
+	<a href='#js'><li>JS</li></a>
+</ul>
+</div>
+</div>
+
+<div id='html'> 
+  <div class='section'>
+	The HTML is the file that is first read by the browser. This means the browser (IE, Firefox, Chrome, Safari, Opera) will read this file and figure out how to display the text. Think of this as the skeleton of your website. This contains all the words and images you want to display. <br><br>
+	If you're looking at the file in its raw format now (not in the browser), you might be wondering why it's indented. Does indenting even mean anything? Nope! not at all. It's just to make it easier to read*. If you wanted to, you could have this all in 1 line, and the browser will still be able to generate the same website from your instructions. But it'd be a pain to edit later on! <br><br>
+	<aside>*If there is weird indenting in this file, forgive me, for I made this site in Notepad. I swear I'm more competent than this formatting would suggest. But have you ever tried doing this without syntax highlighting? Losing your own divs and doing your own indenting is really hard. </aside>
+  </div>
+</div>
+
+<div id='css'>
+  <div class='section'>
+	The CSS is the file that will add fonts and styling to your html. Try <a href='withoutcss.html'>loading the file without CSS</a>, and you'll see what a giant difference it makes to the aesthetics of your site!<br><br>	
+	How do you apply CSS where you want to? If you say <em>'font:14px'</em>, how do you target it to a specific text? Ask your mentor about IDs and classes. 
+</div>
+</div>
+
+<div id='js'> 
+  <img src='turtle.png' id='turtle'></img>
+  <div id='turn-black-target' class='section'>
+	JavaScript is designed to make your site do more fancy things, like animations. For example, you can <span onclick="turnBlack()">make the text <span id='opposite-color'>black</span></span>, <span onclick='alert("you made me pop up!")'>pop up an alert box</span>, or <span onclick='makeTurtleMove()'>make a turtle fly across your screen.</span> A lot of times, you don't need JS to make your website spiffy if your CSS is enough. As you can see from making the text blue, there is some overlapping utility between JS and CSS, and depending on the situation, you might find it easier to use one or the other. 
+</div>
+</div>
+
+<div id='next'>
+  <div class='section'>
+	What's next? Now that you know the basics, there's so many directions web design can take you. Web design is great because the iteration process is fast. Your results are instantly displayed without needing to wait for a whole hour for your neural network to train, and then figuring out you wrote it wrong, and then having to fix it and train it again. Web design can lead you to careers such as a graphic designer, front-end engineer, a UX/UI designer, or an artist. Ask your mentor about these career paths to learn more!<br><br>
+ 	Below are some paths for further exploration: 
+	<ul>
+		<li>Change the font of this website to make it more beautiful! (Check out google fonts) </li>
+		<li>Get rid of that unappealing text underline in links</li>
+		<li>Add a navgiation bar to this website</li>
+		<li>Right now this site looks pretty bad if you were to view it on your phone. Use CSS media queries to make it responsive!</li>
+		<li>Turn this website as a template for your own website by adding more sections and details about yourself!</li>
+	</ul>
+        Thanks for coming to BearHacks!
+  </div>
+</div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,85 @@
+* {
+color:whitesmoke;
+}
+
+#landing-page { 
+  background: url(hackingbears.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+	height:100%;
+	width:100%;	        	  	position:relative;
+}
+
+#hero-text {
+    color: whitesmoke;
+    position: absolute;
+    top:50%;
+    left:50%;
+    letter-spacing: 0.1em;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+#hero-text h1 {
+    text-transform: uppercase;
+    font-size: 3em;
+}
+
+#hero-text h4 {
+    font-size: 1.5em;
+    font-weight: 200;
+}
+
+.overlay {
+    background: rgba(70, 72, 82, 0.4);
+}
+
+.section {
+    padding-top: 20%;
+    margin: 0px 250px;
+    padding-bottom: 20%;
+    line-height: 1.5em;
+    font-size:24px;
+}
+
+aside {
+	font-size:11px;
+    line-height: normal;
+}
+
+#intro {
+    background-color: lightgreen;
+}
+
+#html {
+    background-color: cornflowerblue;
+}
+
+#css {
+	background-color: orange;
+}
+
+#js {
+	background-color: indianred;
+}
+
+#js span {
+	cursor: hand;
+	text-decoration: underline;
+	font-weight: bolder;
+}
+
+#turtle {
+	display:none;
+    position: absolute;
+}
+
+#next {
+	background-color: coral;
+}
+
+.big-font {
+	font-size: 3em;
+}
